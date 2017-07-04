@@ -1,0 +1,13 @@
+# Template file for 'gvolwheel'
+pkgname=gvolwheel
+version=1.0
+revision=1
+short_desc="Lightweight app that lets you control the audio volume"
+maintainer="Rui Flora <rui.flora@gmail.com>"
+license="GPL-2"
+homepage="${SOURCEFORGE_SITE}/gvolwheel/"
+distfiles="${SOURCEFORGE_SITE}/gvolwheel/files/latest/download/gvolwheel-${version}.tar.gz"
+checksum=43f5fa526865055d7196a58ad1fbb4019ceb2353a82bff5827c19033d616c676
+build_style=gnu-configure
+hostmakedepends="intltool pkg-config"
+makedepends="alsa-lib-devel gtk+3-devel"
